@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalise Dictionary</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <script src="javascripts/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+        <h1>PERSONALISE DICTIONARY</h1>
+    <div class="output">
+          <div class="wrapper">
+          <div class="contacts">
+            <h3>Personalise dictionary</h3>
+            <input type="text" id="inputField" placeholder="add user name here"/>
+            <button class ="button-small" id="get-users-by-name">Search database</button>
+            <ul>
+                <h2 id="word">H2 word</h2>
+                <p id="example">P example</p>
+                <p id="definition">Definition</p>
+                <p id="other">Other</p>
+            </ul>
+          </div>
+  
+          <div class="form">
+            <h3>Not found what you are looking, you can add new words here</h3>
+            <form action="" class="form">
+              <p>
+                <label for="">Word</label>
+                <input type="text" id="newWord">
+              </p>
+              <p>
+                <label for="">Example</label>
+                <input type="text" id="newExample">
+              </p>
+              <p class="full-width">
+                <label for="">Description</label>
+                <input type="text" id="newDescription">
+              </p>
+              <p class="full-width">
+                <button type="button" id="submit">Add</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+      <div class="output">
+        <div class="wrapper">
+        <div class="contacts">
+        <h3>See all words available</h3>  
+        <button id="get-definition">Get Definitions</button>
+            </div>
+
+ 
+        <div class="form">
+               <div class="info-container">
+        <ol id="word-info"></ol>
+      </div>
+        </div>
+      </div>
+    </div>     
+</body>
+</html>
+
